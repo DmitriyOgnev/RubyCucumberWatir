@@ -1,0 +1,6 @@
+gem 'watir'
+gem 'cucumber'
+gem 'page-object'
+gem 'data_magic'
+gem 'httparty'
+gem 'rspec'
