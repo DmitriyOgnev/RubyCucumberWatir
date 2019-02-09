@@ -1,5 +1,11 @@
 Feature: Testing if the day is Friday
-  Scenario: Testing if the Day is Friday
-    Given the day is Sunday
+  Scenario Outline: Testing if the Day is Friday
+    Given the day is "<day>"
     When the user ask it is Friday already
-    Then the system replies "Nope"
+    Then the system replies "<response>"
+
+    Examples:
+    |day        | response   |
+    |Friday     | TGIF       |
+    |Sunday     | Nope       |
+    |Wednesday  | Nope       |
