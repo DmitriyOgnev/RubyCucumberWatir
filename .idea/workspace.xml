@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f93c3f05-1241-4ac9-9221-7ba982b3235d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/features/basic_api_call.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/step_definitions/basic_api_call_step_defs.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/support/utils_api.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CucumberFrameWork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CucumberFrameWork.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/basic_api_call.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/basic_api_call.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/step_definitions/basic_api_call_step_defs.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/basic_api_call_step_defs.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,13 +16,15 @@
     <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Testing_if_the_Day_is_Friday__4_.rcov" NAME="Scenario: Testing if the Day is Friday (4) Coverage Results" MODIFIED="1550030112990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
     <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Testing_if_the_Day_is_Friday.rcov" NAME="Scenario: Testing if the Day is Friday Coverage Results" MODIFIED="1549690431662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
     <SUITE FILE_PATH="coverage/CucumberFrameWork@is_friday_feature.rcov" NAME="is_friday.feature Coverage Results" MODIFIED="1550031635980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
-    <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_200_Status_Call.rcov" NAME="Scenario: Make 200 Status Call Coverage Results" MODIFIED="1550037291880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
+    <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_200_Status_Call.rcov" NAME="Scenario: Make 200 Status Call Coverage Results" MODIFIED="1550037846272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
     <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Testing_if_the_Day_is_Friday__2_.rcov" NAME="Scenario: Testing if the Day is Friday (2) Coverage Results" MODIFIED="1549690470838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
     <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Testing_if_the_Day_is_Friday__3_.rcov" NAME="Scenario: Testing if the Day is Friday (3) Coverage Results" MODIFIED="1549691420374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
+    <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_API_Calls.rcov" NAME="Scenario: Make API Calls Coverage Results" MODIFIED="1550038895227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
     <SUITE FILE_PATH="coverage/CucumberFrameWork@checking_if_friday_step_defs.rcov" NAME="checking_if_friday_step_defs Coverage Results" MODIFIED="1550030969323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/step_definitions" MODULE_NAME="CucumberFrameWork" />
+    <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_API_Calls__1_.rcov" NAME="Scenario: Make API Calls (1) Coverage Results" MODIFIED="1550039252229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.2893082">
+    <splitter split-orientation="horizontal" split-proportion="0.31965587">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="false">
@@ -42,8 +39,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/features/basic_api_call.feature">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+                <state relative-caret-position="204">
+                  <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -66,8 +63,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/features/step_definitions/basic_api_call_step_defs.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="238">
-                      <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+                    <state relative-caret-position="187">
+                      <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
                     </state>
                   </provider>
                 </entry>
@@ -88,8 +85,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/features/support/utils_api.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="238">
-                      <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+                    <state relative-caret-position="221">
+                      <caret line="13" selection-start-line="13" selection-end-line="13" />
                     </state>
                   </provider>
                 </entry>
@@ -118,9 +115,9 @@
         <option value="$PROJECT_DIR$/features/utils/friday_helper.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/checking_if_friday_step_defs.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/features/basic_api_call.feature" />
-        <option value="$PROJECT_DIR$/features/step_definitions/basic_api_call_step_defs.rb" />
         <option value="$PROJECT_DIR$/features/support/utils_api.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/basic_api_call_step_defs.rb" />
+        <option value="$PROJECT_DIR$/features/basic_api_call.feature" />
       </list>
     </option>
   </component>
@@ -184,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber.Scenario: Make 200 Status Call">
+  <component name="RunManager" selected="Cucumber.Scenario: Make API Calls (1)">
     <configuration name="Scenario: Make 200 Status Call" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <module name="CucumberFrameWork" />
       <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
@@ -217,7 +214,7 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method v="2" />
     </configuration>
-    <configuration name="Scenario: Testing if the Day is Friday (3)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+    <configuration name="Scenario: Make API Calls (1)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <module name="CucumberFrameWork" />
       <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -234,9 +231,9 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/is_friday.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/basic_api_call.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Testing if the Day is Friday$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Make API Calls$" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
@@ -249,7 +246,7 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method v="2" />
     </configuration>
-    <configuration name="Scenario: Testing if the Day is Friday (4)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+    <configuration name="Scenario: Make API Calls" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <module name="CucumberFrameWork" />
       <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -266,9 +263,9 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/is_friday.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/basic_api_call.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Testing if the Day is Friday$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Make API Calls$" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
@@ -329,11 +326,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber.Scenario: Make API Calls (1)" />
+        <item itemvalue="Cucumber.Scenario: Make API Calls" />
         <item itemvalue="Cucumber.Scenario: Make 200 Status Call" />
         <item itemvalue="Cucumber.is_friday.feature" />
         <item itemvalue="Ruby.checking_if_friday_step_defs" />
-        <item itemvalue="Cucumber.Scenario: Testing if the Day is Friday (4)" />
-        <item itemvalue="Cucumber.Scenario: Testing if the Day is Friday (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +345,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549688380002</updated>
-      <workItem from="1549688381515" duration="11441000" />
+      <workItem from="1549688381515" duration="13019000" />
     </task>
     <task id="LOCAL-00001" summary="Scenario outline implementation">
       <created>1549691499392</created>
@@ -361,27 +358,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="is_friday_feature - 2019.02.12 at 22h 09m 45s.xml">
-      <configuration name="is_friday.feature" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="is_friday_feature - 2019.02.12 at 22h 20m 20s.xml">
-      <configuration name="is_friday.feature" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="is_friday_feature - 2019.02.12 at 22h 20m 37s.xml">
-      <configuration name="is_friday.feature" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Make_200_Status_Call - 2019.02.12 at 23h 35m 55s.xml">
-      <configuration name="Scenario: Make 200 Status Call" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Make_200_Status_Call - 2019.02.12 at 23h 46m 00s.xml">
-      <configuration name="Scenario: Make 200 Status Call" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Make_200_Status_Call - 2019.02.12 at 23h 47m 03s.xml">
-      <configuration name="Scenario: Make 200 Status Call" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Make_200_Status_Call - 2019.02.12 at 23h 51m 22s.xml">
-      <configuration name="Scenario: Make 200 Status Call" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
     <history-entry file="Scenario__Make_200_Status_Call - 2019.02.12 at 23h 51m 57s.xml">
       <configuration name="Scenario: Make 200 Status Call" configurationId="CucumberRunConfigurationType" />
     </history-entry>
@@ -391,16 +367,37 @@
     <history-entry file="Scenario__Make_200_Status_Call - 2019.02.12 at 23h 54m 55s.xml">
       <configuration name="Scenario: Make 200 Status Call" configurationId="CucumberRunConfigurationType" />
     </history-entry>
+    <history-entry file="Scenario__Make_200_Status_Call - 2019.02.13 at 00h 04m 10s.xml">
+      <configuration name="Scenario: Make 200 Status Call" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Make_API_Calls - 2019.02.13 at 00h 21m 39s.xml">
+      <configuration name="Scenario: Make API Calls" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Make_API_Calls_(1) - 2019.02.13 at 00h 22m 48s.xml">
+      <configuration name="Scenario: Make API Calls (1)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Make_API_Calls_(1) - 2019.02.13 at 00h 24m 02s.xml">
+      <configuration name="Scenario: Make API Calls (1)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Make_API_Calls_(1) - 2019.02.13 at 00h 24m 24s.xml">
+      <configuration name="Scenario: Make API Calls (1)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Make_API_Calls_(1) - 2019.02.13 at 00h 27m 18s.xml">
+      <configuration name="Scenario: Make API Calls (1)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Make_API_Calls_(1) - 2019.02.13 at 00h 27m 36s.xml">
+      <configuration name="Scenario: Make API Calls (1)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11441000" />
+    <option name="totallyTimeSpent" value="13019000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="-7" width="1800" height="1248" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17853042" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1326062" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -461,13 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/is_friday.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/utils/friday_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -482,24 +472,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/basic_api_call.feature">
+    <entry file="file://$PROJECT_DIR$/features/is_friday.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/utils_api.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/basic_api_call_step_defs.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="187">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/basic_api_call.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
