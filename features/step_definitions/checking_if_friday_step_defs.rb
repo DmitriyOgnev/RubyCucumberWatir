@@ -1,14 +1,4 @@
-module FridayHelper
-  def isFriday?(day)
-    if day=='Friday'
-      'TGIF'
-    else
-      "Nope"
-    end
-  end
-end
-
-World FridayHelper
+require_relative '../utils/friday_helper'
 
 Given("the day is {string}") do |day|
   @today = day
@@ -19,7 +9,7 @@ Given("the day is Friday") do
 end
 
 When("the user ask it is Friday already") do
-  @actual = isFriday?(@today)
+  @actual = FridayHelper.isFriday?(@today)
 end
 
 Then("the system replies {string}") do |string|
