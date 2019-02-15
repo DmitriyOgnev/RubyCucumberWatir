@@ -22,8 +22,8 @@ module API_Utils
   # end
 
   def API_Utils.make_post_call(webend)
-    headers = DataReader.read_data(webend, "headers")
-    payload = DataReader.read_data(webend, "payload")
+    headers = JSON.parse DataReader.read_data(webend, "headers")
+    payload = JSON.parse DataReader.read_data(webend, "payload")
 
     @response = RestClient.post(@URL + webend, payload, headers)
   end

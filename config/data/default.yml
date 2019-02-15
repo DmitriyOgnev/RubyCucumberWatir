@@ -1,6 +1,23 @@
 auth:
-  payload:
-    username: "admin"
-    password: "password123"
+  payload: '{
+    "username": "admin",
+    "password": "password123"
+  }'
   headers:
-    Content-type: "application/json"
+    '{"Content-Type": "application/json"}'
+
+booking:
+  payload: '{
+    "firstname": "Jim",
+    "lastname": "Brown",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2018-01-01",
+      "checkout": "2019-01-01"
+    },
+    "additionalneeds": "Breakfast"
+  }'
+  headers:
+    '{"Content-Type": "application/json"}'
+

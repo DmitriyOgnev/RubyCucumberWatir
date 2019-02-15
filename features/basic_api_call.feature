@@ -17,5 +17,6 @@ Feature: Basic API call
 
   Scenario: Make 200 Status POST Call
     Given the user is authorized to make a request
-    When the user makes a POST API call to "/auth"
+    When the user makes a POST API call to "/booking"
     Then the user receives 200 response status
+
