@@ -7,6 +7,11 @@ class AmazonHome
   text_field(:search_box, id: 'twotabsearchtextbox')
   select_list(:dept_dropdown, id: 'searchDropdownBox')
   button(:search_button, xpath: "//div[@class='nav-right']//input[@class='nav-input']")
+  div(:search_results, class: 's-result-list sg-row')
 
+  def search_for_item(item)
+    self.search_box = item
+    self.search_button
+  end
 end
 

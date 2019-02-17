@@ -1,0 +1,11 @@
+For Watir and Page-object to work:
+    -env.rb file should require and define:
+        require 'data_magic'
+        require 'page-object'
+        require 'require_all'
+        require 'rspec'
+        require_all 'lib'
+
+        World(PageObject::PageFactory)
+
+        World(DataMagic)
