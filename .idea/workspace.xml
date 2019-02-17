@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f93c3f05-1241-4ac9-9221-7ba982b3235d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/features/Amazon_Search.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/step_definitions/amazon_search_step_defs.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/support/hooks.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/pages/amazon_home.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/data/default.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/data/default.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/basic_api_call.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/basic_api_call.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/utils/data_reader.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/utils/data_reader.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/utils/testBest.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/utils/testBest.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/utils/utils_api.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/utils/utils_api.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/support/env.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/env.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,48 +19,70 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Testing_if_the_Day_is_Friday__4_.rcov" NAME="Scenario: Testing if the Day is Friday (4) Coverage Results" MODIFIED="1550126997933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
-    <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Testing_if_the_Day_is_Friday.rcov" NAME="Scenario: Testing if the Day is Friday Coverage Results" MODIFIED="1550127069591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
+    <SUITE FILE_PATH="coverage/CucumberFrameWork@basic_api_call_feature.rcov" NAME="basic_api_call.feature Coverage Results" MODIFIED="1550418760747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
     <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_API_GET_Calls__1_.rcov" NAME="Scenario: Make API GET Calls (1) Coverage Results" MODIFIED="1550125888746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
-    <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_200_Status_POST_Call__1_.rcov" NAME="Scenario: Make 200 Status POST Call (1) Coverage Results" MODIFIED="1550201997343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
-    <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_API_GET_Calls.rcov" NAME="Scenario: Make API GET Calls Coverage Results" MODIFIED="1550125879511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
     <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_API_Calls.rcov" NAME="Scenario: Make API Calls Coverage Results" MODIFIED="1550038895227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
-    <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Testing_if_the_Day_is_Friday__3_.rcov" NAME="Scenario: Testing if the Day is Friday (3) Coverage Results" MODIFIED="1550126892433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
     <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_API_Calls__3_.rcov" NAME="Scenario: Make API Calls (3) Coverage Results" MODIFIED="1550117150306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
-    <SUITE FILE_PATH="coverage/CucumberFrameWork@checking_if_friday_step_defs.rcov" NAME="checking_if_friday_step_defs Coverage Results" MODIFIED="1550030969323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/step_definitions" MODULE_NAME="CucumberFrameWork" />
-    <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_200_Status_GET_Call.rcov" NAME="Scenario: Make 200 Status GET Call Coverage Results" MODIFIED="1550125949607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
-    <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_API_GET_Calls__2_.rcov" NAME="Scenario: Make API GET Calls (2) Coverage Results" MODIFIED="1550125908433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
     <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Testing_if_the_Day_is_Friday__1_.rcov" NAME="Scenario: Testing if the Day is Friday (1) Coverage Results" MODIFIED="1550126191154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
     <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_200_Status_POST_Call__4_.rcov" NAME="Scenario: Make 200 Status POST Call (4) Coverage Results" MODIFIED="1550203583025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
-    <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_API_Calls__2_.rcov" NAME="Scenario: Make API Calls (2) Coverage Results" MODIFIED="1550039811043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
     <SUITE FILE_PATH="coverage/CucumberFrameWork@is_friday_feature.rcov" NAME="is_friday.feature Coverage Results" MODIFIED="1550126587223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
     <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_200_Status_Call.rcov" NAME="Scenario: Make 200 Status Call Coverage Results" MODIFIED="1550037846272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
     <SUITE FILE_PATH="coverage/CucumberFrameWork@data_reader.rcov" NAME="data_reader Coverage Results" MODIFIED="1550121222776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/support" MODULE_NAME="CucumberFrameWork" />
     <SUITE FILE_PATH="coverage/CucumberFrameWork@utils_api.rcov" NAME="utils_api Coverage Results" MODIFIED="1550123623681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/utils" MODULE_NAME="CucumberFrameWork" />
+    <SUITE FILE_PATH="coverage/CucumberFrameWork@testBest.rcov" NAME="testBest Coverage Results" MODIFIED="1550419281282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/utils" MODULE_NAME="CucumberFrameWork" />
+    <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_API_Calls__1_.rcov" NAME="Scenario: Make API Calls (1) Coverage Results" MODIFIED="1550039252229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
+    <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_200_Status_POST_Call__2_.rcov" NAME="Scenario: Make 200 Status POST Call (2) Coverage Results" MODIFIED="1550419260811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
+    <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Users_can_search_for_a_specific_item_on_Amazon.rcov" NAME="Scenario: Users can search for a specific item on Amazon Coverage Results" MODIFIED="1550421297961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
+    <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Testing_if_the_Day_is_Friday.rcov" NAME="Scenario: Testing if the Day is Friday Coverage Results" MODIFIED="1550127069591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
+    <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_200_Status_POST_Call__1_.rcov" NAME="Scenario: Make 200 Status POST Call (1) Coverage Results" MODIFIED="1550418780813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
+    <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_API_GET_Calls.rcov" NAME="Scenario: Make API GET Calls Coverage Results" MODIFIED="1550125879511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
+    <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Testing_if_the_Day_is_Friday__3_.rcov" NAME="Scenario: Testing if the Day is Friday (3) Coverage Results" MODIFIED="1550126892433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
+    <SUITE FILE_PATH="coverage/CucumberFrameWork@checking_if_friday_step_defs.rcov" NAME="checking_if_friday_step_defs Coverage Results" MODIFIED="1550030969323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/step_definitions" MODULE_NAME="CucumberFrameWork" />
+    <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_200_Status_GET_Call.rcov" NAME="Scenario: Make 200 Status GET Call Coverage Results" MODIFIED="1550125949607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
+    <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_API_GET_Calls__2_.rcov" NAME="Scenario: Make API GET Calls (2) Coverage Results" MODIFIED="1550125908433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
+    <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_API_Calls__2_.rcov" NAME="Scenario: Make API Calls (2) Coverage Results" MODIFIED="1550039811043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
     <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_200_Status_POST_Call.rcov" NAME="Scenario: Make 200 Status POST Call Coverage Results" MODIFIED="1550204649259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
     <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Testing_if_the_Day_is_Friday__2_.rcov" NAME="Scenario: Testing if the Day is Friday (2) Coverage Results" MODIFIED="1550126786738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
     <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_200_Status_POST_Call__3_.rcov" NAME="Scenario: Make 200 Status POST Call (3) Coverage Results" MODIFIED="1550203567820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
-    <SUITE FILE_PATH="coverage/CucumberFrameWork@testBest.rcov" NAME="testBest Coverage Results" MODIFIED="1550204591050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/utils" MODULE_NAME="CucumberFrameWork" />
-    <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_API_Calls__1_.rcov" NAME="Scenario: Make API Calls (1) Coverage Results" MODIFIED="1550039252229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
-    <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_200_Status_POST_Call__2_.rcov" NAME="Scenario: Make 200 Status POST Call (2) Coverage Results" MODIFIED="1550202727512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
+    <SUITE FILE_PATH="coverage/CucumberFrameWork@Amazon_Search_feature.rcov" NAME="Amazon_Search.feature Coverage Results" MODIFIED="1550421237027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.36643836">
+    <splitter split-orientation="horizontal" split-proportion="0.36681974">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/features/is_friday.feature">
+            <entry file="file://$PROJECT_DIR$/lib/pages/amazon_home.rb">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/features/Amazon_Search.feature">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Gemfile">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+                <state relative-caret-position="119">
+                  <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/features/basic_api_call.feature">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/features/step_definitions/amazon_search_step_defs.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+                <state relative-caret-position="204">
+                  <caret line="12" selection-start-line="12" selection-end-line="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -70,28 +94,19 @@
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/features/step_definitions/checking_if_friday_step_defs.rb">
+                <entry file="file://$PROJECT_DIR$/features/utils/testBest.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state>
-                      <caret column="18" selection-start-column="18" selection-end-column="18" />
+                    <state relative-caret-position="119">
+                      <caret line="7" selection-start-line="7" selection-end-line="7" />
                     </state>
                   </provider>
                 </entry>
               </file>
               <file pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/features/utils/testBest.rb">
+                <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="119">
-                      <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/features/step_definitions/basic_api_call_step_defs.rb">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="221">
-                      <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+                    <state relative-caret-position="153">
+                      <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
                     </state>
                   </provider>
                 </entry>
@@ -101,19 +116,10 @@
           <split-second>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/features/utils/friday_helper.rb">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="17">
-                      <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/config/data/default.yml">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="289">
-                      <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+                      <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
                     </state>
                   </provider>
                 </entry>
@@ -122,7 +128,7 @@
                 <entry file="file://$PROJECT_DIR$/features/utils/utils_api.rb">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="357">
-                      <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+                      <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
                     </state>
                   </provider>
                 </entry>
@@ -131,7 +137,7 @@
                 <entry file="file://$PROJECT_DIR$/features/utils/data_reader.rb">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="85">
-                      <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+                      <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
                     </state>
                   </provider>
                 </entry>
@@ -159,24 +165,26 @@
         <option value="$PROJECT_DIR$/features/is_friday.feature" />
         <option value="$PROJECT_DIR$/features/utils/friday_helper.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/checking_if_friday_step_defs.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/features/support/utils_api.rb" />
         <option value="$PROJECT_DIR$/features/support/data_reader.rb" />
         <option value="$PROJECT_DIR$/features/utils/default.yml" />
-        <option value="$PROJECT_DIR$/features/support/env.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/basic_api_call_step_defs.rb" />
         <option value="$PROJECT_DIR$/features/utils/utils_api.rb" />
         <option value="$PROJECT_DIR$/config/data/default.yml" />
+        <option value="$PROJECT_DIR$/features/basic_api_call.feature" />
         <option value="$PROJECT_DIR$/features/utils/data_reader.rb" />
         <option value="$PROJECT_DIR$/features/utils/testBest.rb" />
-        <option value="$PROJECT_DIR$/features/basic_api_call.feature" />
+        <option value="$PROJECT_DIR$/features/support/hooks.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/amazon_search_step_defs.rb" />
+        <option value="$PROJECT_DIR$/features/support/env.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-14" />
-    <option name="y" value="-14" />
-    <option name="width" value="3289" />
+    <option name="x" value="1092" />
+    <option name="y" value="92" />
+    <option name="width" value="3268" />
     <option name="height" value="2184" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -185,6 +193,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,11 +235,21 @@
               <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CucumberFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CucumberFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CucumberFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CucumberFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,11 +258,14 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DM3\Documents\MEGA\Ruby\Projects\CucumberFrameWork\features\step_definitions" />
+      <recent name="C:\Users\DM3\Documents\MEGA\Ruby\Projects\CucumberFrameWork\features" />
+      <recent name="C:\Users\DM3\Documents\MEGA\Ruby\Projects\CucumberFrameWork" />
+      <recent name="C:\Users\DM3\Documents\MEGA\Ruby\Projects\CucumberFrameWork\features\support" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\DM3\Documents\MEGA\Ruby\Projects\CucumberFrameWork\features\utils" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\DM3\Documents\MEGA\Ruby\Projects\CucumberFrameWork\features\support" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -258,7 +280,71 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber.Scenario: Make 200 Status POST Call">
+  <component name="RunManager" selected="Cucumber.Scenario: Users can search for a specific item on Amazon">
+    <configuration name="Amazon_Search.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <module name="CucumberFrameWork" />
+      <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/Amazon_Search.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Scenario: Make 200 Status POST Call (1)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <module name="CucumberFrameWork" />
+      <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/basic_api_call.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Make 200 Status POST Call$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method v="2" />
+    </configuration>
     <configuration name="Scenario: Make 200 Status POST Call (2)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <module name="CucumberFrameWork" />
       <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
@@ -291,7 +377,7 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method v="2" />
     </configuration>
-    <configuration name="Scenario: Make 200 Status POST Call (3)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+    <configuration name="Scenario: Users can search for a specific item on Amazon" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <module name="CucumberFrameWork" />
       <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -308,73 +394,9 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/basic_api_call.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/Amazon_Search.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Make 200 Status POST Call$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Scenario: Make 200 Status POST Call (4)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
-      <module name="CucumberFrameWork" />
-      <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/basic_api_call.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Make 200 Status POST Call$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Scenario: Make 200 Status POST Call" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
-      <module name="CucumberFrameWork" />
-      <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/basic_api_call.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Make 200 Status POST Call$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Users can search for a specific item on Amazon$" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
@@ -403,11 +425,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber.Scenario: Make 200 Status POST Call" />
+        <item itemvalue="Cucumber.Scenario: Users can search for a specific item on Amazon" />
+        <item itemvalue="Cucumber.Amazon_Search.feature" />
         <item itemvalue="Ruby.testBest" />
-        <item itemvalue="Cucumber.Scenario: Make 200 Status POST Call (4)" />
-        <item itemvalue="Cucumber.Scenario: Make 200 Status POST Call (3)" />
         <item itemvalue="Cucumber.Scenario: Make 200 Status POST Call (2)" />
+        <item itemvalue="Cucumber.Scenario: Make 200 Status POST Call (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -426,7 +448,8 @@
       <workItem from="1550116793389" duration="8641000" />
       <workItem from="1550125937103" duration="220000" />
       <workItem from="1550126180693" duration="485000" />
-      <workItem from="1550126778095" duration="3034000" />
+      <workItem from="1550126778095" duration="6137000" />
+      <workItem from="1550289680706" duration="3619000" />
     </task>
     <task id="LOCAL-00001" summary="Scenario outline implementation">
       <created>1549691499392</created>
@@ -439,45 +462,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__Make_200_Status_POST_Call - 2019.02.14 at 00h 52m 35s.xml">
-      <configuration name="Scenario: Make 200 Status POST Call" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="basic_api_call_feature - 2019.02.17 at 09h 52m 44s.xml">
+      <configuration name="basic_api_call.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Make_200_Status_POST_Call - 2019.02.14 at 00h 52m 56s.xml">
-      <configuration name="Scenario: Make 200 Status POST Call" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Make_200_Status_POST_Call_(1) - 2019.02.14 at 21h 40m 03s.xml">
+    <history-entry file="Scenario__Make_200_Status_POST_Call_(1) - 2019.02.17 at 09h 53m 03s.xml">
       <configuration name="Scenario: Make 200 Status POST Call (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Make_200_Status_POST_Call_(2) - 2019.02.14 at 21h 50m 41s.xml">
+    <history-entry file="Scenario__Make_200_Status_POST_Call_(2) - 2019.02.17 at 10h 01m 03s.xml">
       <configuration name="Scenario: Make 200 Status POST Call (2)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Make_200_Status_POST_Call_(2) - 2019.02.14 at 21h 51m 48s.xml">
-      <configuration name="Scenario: Make 200 Status POST Call (2)" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Amazon_Search_feature - 2019.02.17 at 10h 07m 26s.xml">
+      <configuration name="Amazon_Search.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Make_200_Status_POST_Call_(2) - 2019.02.14 at 21h 52m 09s.xml">
-      <configuration name="Scenario: Make 200 Status POST Call (2)" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Amazon_Search_feature - 2019.02.17 at 10h 08m 06s.xml">
+      <configuration name="Amazon_Search.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Make_200_Status_POST_Call_(3) - 2019.02.14 at 22h 06m 10s.xml">
-      <configuration name="Scenario: Make 200 Status POST Call (3)" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Amazon_Search_feature - 2019.02.17 at 10h 16m 59s.xml">
+      <configuration name="Amazon_Search.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Make_200_Status_POST_Call_(4) - 2019.02.14 at 22h 06m 25s.xml">
-      <configuration name="Scenario: Make 200 Status POST Call (4)" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Amazon_Search_feature - 2019.02.17 at 10h 18m 19s.xml">
+      <configuration name="Amazon_Search.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Make_200_Status_POST_Call - 2019.02.14 at 22h 23m 37s.xml">
-      <configuration name="Scenario: Make 200 Status POST Call" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Amazon_Search_feature - 2019.02.17 at 10h 18m 41s.xml">
+      <configuration name="Amazon_Search.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Make_200_Status_POST_Call - 2019.02.14 at 22h 24m 11s.xml">
-      <configuration name="Scenario: Make 200 Status POST Call" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Amazon_Search_feature - 2019.02.17 at 10h 32m 46s.xml">
+      <configuration name="Amazon_Search.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Amazon_Search_feature - 2019.02.17 at 10h 33m 58s.xml">
+      <configuration name="Amazon_Search.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26038000" />
+    <option name="totallyTimeSpent" value="32760000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="-7" width="1800" height="1248" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16188289" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16360505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -497,6 +520,27 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16360505" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44494182" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3294539" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3294539" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -546,21 +590,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="Scenario outline implementation" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/utils/default.yml" />
-    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://C:/Ruby25-x64/lib/ruby/2.5.0/psych.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="664">
           <caret line="349" selection-start-line="349" selection-end-line="349" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/basic_api_call.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/is_friday.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -571,17 +619,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/basic_api_call_step_defs.rb">
+    <entry file="file://$PROJECT_DIR$/features/utils/testBest.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/is_friday.feature">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/basic_api_call_step_defs.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state relative-caret-position="221">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -595,37 +643,57 @@
     <entry file="file://$PROJECT_DIR$/config/data/default.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/utils/utils_api.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/utils/data_reader.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/utils/testBest.rb">
+    <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/amazon_home.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/amazon_search_step_defs.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/basic_api_call.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/features/Amazon_Search.feature">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
