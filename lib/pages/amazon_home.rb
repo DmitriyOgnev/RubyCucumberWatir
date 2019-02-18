@@ -13,5 +13,12 @@ class AmazonHome
     self.search_box = item
     self.search_button
   end
+
+
+  def click_dynamic_button(var_xpath)
+    browser.button(:xpath => var_xpath).click
+  end
+
+
 end
 

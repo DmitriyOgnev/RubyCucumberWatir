@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f93c3f05-1241-4ac9-9221-7ba982b3235d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/step_definitions/amazon_search_step_defs.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/amazon_search_step_defs.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/pages/amazon_home.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/amazon_home.rb" afterDir="false" />
@@ -35,6 +34,7 @@
     <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Testing_if_the_Day_is_Friday__3_.rcov" NAME="Scenario: Testing if the Day is Friday (3) Coverage Results" MODIFIED="1550126892433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
     <SUITE FILE_PATH="coverage/CucumberFrameWork@checking_if_friday_step_defs.rcov" NAME="checking_if_friday_step_defs Coverage Results" MODIFIED="1550030969323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/step_definitions" MODULE_NAME="CucumberFrameWork" />
     <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_200_Status_GET_Call.rcov" NAME="Scenario: Make 200 Status GET Call Coverage Results" MODIFIED="1550125949607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
+    <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Users_can_search_for_a_specific_item_on_Amazon__1_.rcov" NAME="Scenario: Users can search for a specific item on Amazon (1) Coverage Results" MODIFIED="1550511176326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
     <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_API_GET_Calls__2_.rcov" NAME="Scenario: Make API GET Calls (2) Coverage Results" MODIFIED="1550125908433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
     <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_API_Calls__2_.rcov" NAME="Scenario: Make API Calls (2) Coverage Results" MODIFIED="1550039811043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
     <SUITE FILE_PATH="coverage/CucumberFrameWork@Scenario__Make_200_Status_POST_Call.rcov" NAME="Scenario: Make 200 Status POST Call Coverage Results" MODIFIED="1550204649259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
@@ -43,23 +43,14 @@
     <SUITE FILE_PATH="coverage/CucumberFrameWork@Amazon_Search_feature.rcov" NAME="Amazon_Search.feature Coverage Results" MODIFIED="1550421237027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="CucumberFrameWork" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3891558">
+    <splitter split-orientation="horizontal" split-proportion="0.21928817">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/features/Amazon_Search.feature">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/features/step_definitions/amazon_search_step_defs.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+                <state relative-caret-position="68">
+                  <caret line="4" selection-start-line="4" selection-end-line="4" />
                 </state>
               </provider>
             </entry>
@@ -67,7 +58,7 @@
         </leaf>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.60136867">
+        <splitter split-orientation="horizontal" split-proportion="0.4959807">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file pinned="false" current-in-tab="false">
@@ -82,8 +73,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/lib/pages/amazon_home.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="153">
-                      <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+                    <state relative-caret-position="34">
+                      <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
                     </state>
                   </provider>
                 </entry>
@@ -129,6 +120,15 @@
                 </entry>
               </file>
               <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/features/step_definitions/amazon_search_step_defs.rb">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="334">
+                      <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/features/utils/data_reader.rb">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="85">
@@ -277,7 +277,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber.Scenario: Users can search for a specific item on Amazon">
+  <component name="RunManager" selected="Cucumber.Scenario: Users can search for a specific item on Amazon (1)">
     <configuration name="Amazon_Search.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <module name="CucumberFrameWork" />
       <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
@@ -310,7 +310,7 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method v="2" />
     </configuration>
-    <configuration name="Scenario: Make 200 Status POST Call (1)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+    <configuration name="Scenario: Make 200 Status POST Call (2)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <module name="CucumberFrameWork" />
       <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -342,7 +342,7 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method v="2" />
     </configuration>
-    <configuration name="Scenario: Make 200 Status POST Call (2)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+    <configuration name="Scenario: Users can search for a specific item on Amazon (1)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <module name="CucumberFrameWork" />
       <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -359,9 +359,9 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/basic_api_call.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/Amazon_Search.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Make 200 Status POST Call$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Users can search for a specific item on Amazon$" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
@@ -422,11 +422,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber.Scenario: Users can search for a specific item on Amazon (1)" />
         <item itemvalue="Cucumber.Scenario: Users can search for a specific item on Amazon" />
         <item itemvalue="Cucumber.Amazon_Search.feature" />
         <item itemvalue="Ruby.testBest" />
         <item itemvalue="Cucumber.Scenario: Make 200 Status POST Call (2)" />
-        <item itemvalue="Cucumber.Scenario: Make 200 Status POST Call (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -446,7 +446,7 @@
       <workItem from="1550125937103" duration="220000" />
       <workItem from="1550126180693" duration="485000" />
       <workItem from="1550126778095" duration="6137000" />
-      <workItem from="1550289680706" duration="8513000" />
+      <workItem from="1550289680706" duration="11790000" />
     </task>
     <task id="LOCAL-00001" summary="Scenario outline implementation">
       <created>1549691499392</created>
@@ -459,39 +459,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__Users_can_search_for_a_specific_item_on_Amazon - 2019.02.17 at 10h 49m 30s.xml">
-      <configuration name="Scenario: Users can search for a specific item on Amazon" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__Users_can_search_for_a_specific_item_on_Amazon_(1) - 2019.02.18 at 10h 25m 56s.xml">
+      <configuration name="Scenario: Users can search for a specific item on Amazon (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Users_can_search_for_a_specific_item_on_Amazon - 2019.02.17 at 11h 03m 49s.xml">
-      <configuration name="Scenario: Users can search for a specific item on Amazon" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__Users_can_search_for_a_specific_item_on_Amazon_(1) - 2019.02.18 at 10h 26m 42s.xml">
+      <configuration name="Scenario: Users can search for a specific item on Amazon (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Users_can_search_for_a_specific_item_on_Amazon - 2019.02.17 at 11h 04m 17s.xml">
-      <configuration name="Scenario: Users can search for a specific item on Amazon" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__Users_can_search_for_a_specific_item_on_Amazon_(1) - 2019.02.18 at 10h 28m 57s.xml">
+      <configuration name="Scenario: Users can search for a specific item on Amazon (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Users_can_search_for_a_specific_item_on_Amazon - 2019.02.17 at 11h 39m 53s.xml">
-      <configuration name="Scenario: Users can search for a specific item on Amazon" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__Users_can_search_for_a_specific_item_on_Amazon_(1) - 2019.02.18 at 10h 36m 56s.xml">
+      <configuration name="Scenario: Users can search for a specific item on Amazon (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Users_can_search_for_a_specific_item_on_Amazon - 2019.02.17 at 11h 53m 51s.xml">
-      <configuration name="Scenario: Users can search for a specific item on Amazon" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__Users_can_search_for_a_specific_item_on_Amazon_(1) - 2019.02.18 at 10h 37m 37s.xml">
+      <configuration name="Scenario: Users can search for a specific item on Amazon (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Users_can_search_for_a_specific_item_on_Amazon - 2019.02.17 at 11h 55m 25s.xml">
-      <configuration name="Scenario: Users can search for a specific item on Amazon" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__Users_can_search_for_a_specific_item_on_Amazon_(1) - 2019.02.18 at 10h 38m 38s.xml">
+      <configuration name="Scenario: Users can search for a specific item on Amazon (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Users_can_search_for_a_specific_item_on_Amazon - 2019.02.17 at 12h 11m 51s.xml">
-      <configuration name="Scenario: Users can search for a specific item on Amazon" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__Users_can_search_for_a_specific_item_on_Amazon_(1) - 2019.02.18 at 10h 39m 57s.xml">
+      <configuration name="Scenario: Users can search for a specific item on Amazon (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Users_can_search_for_a_specific_item_on_Amazon - 2019.02.17 at 12h 16m 00s.xml">
-      <configuration name="Scenario: Users can search for a specific item on Amazon" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__Users_can_search_for_a_specific_item_on_Amazon_(1) - 2019.02.18 at 10h 41m 08s.xml">
+      <configuration name="Scenario: Users can search for a specific item on Amazon (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Users_can_search_for_a_specific_item_on_Amazon - 2019.02.17 at 12h 16m 29s.xml">
-      <configuration name="Scenario: Users can search for a specific item on Amazon" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__Users_can_search_for_a_specific_item_on_Amazon_(1) - 2019.02.18 at 11h 22m 15s.xml">
+      <configuration name="Scenario: Users can search for a specific item on Amazon (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Users_can_search_for_a_specific_item_on_Amazon - 2019.02.17 at 12h 16m 54s.xml">
-      <configuration name="Scenario: Users can search for a specific item on Amazon" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__Users_can_search_for_a_specific_item_on_Amazon_(1) - 2019.02.18 at 11h 22m 53s.xml">
+      <configuration name="Scenario: Users can search for a specific item on Amazon (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37654000" />
+    <option name="totallyTimeSpent" value="40931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="-7" width="1800" height="1248" extended-state="6" />
@@ -499,7 +499,7 @@
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.16360505" />
+      <window_info content_ui="combo" id="Project" order="2" weight="0.16360505" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44494182" />
@@ -688,22 +688,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/Amazon_Search.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/amazon_home.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/amazon_search_step_defs.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        <state relative-caret-position="334">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/amazon_home.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>

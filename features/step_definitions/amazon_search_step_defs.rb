@@ -22,7 +22,14 @@ When(/^they search for "([^"]*)"$/) do |arg|
 =end
 
   #   search using one method defined in Page
-  on(AmazonHome).search_for_item(arg)
+  # on(AmazonHome).search_for_item(arg)
+
+  on(AmazonHome) do |page|
+    page.search_box = arg
+    str = "//div[@class='nav-right']//input[@class='nav-input']"
+    page.click_dynamic_button(str)
+  end
+
 end
 
 Then(/^amazon should return results for "([^"]*)"$/) do |arg|
