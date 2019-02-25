@@ -20,3 +20,4 @@ Feature: Basic API call
     When the user makes a POST API call to "/booking"
     Then the user receives 200 response status
 
+
