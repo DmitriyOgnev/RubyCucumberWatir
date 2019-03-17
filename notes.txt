@@ -9,3 +9,10 @@ For Watir and Page-object to work:
         World(PageObject::PageFactory)
 
         World(DataMagic)
+
+
+ Once parallel_tests gem added, to run feature files in parallel use the command:
+ bundle exec parallel_cucumber features/
+    - to run specific tag
+        bundle exec parallel_cucumber features/ -o "-t @Amazon"
+

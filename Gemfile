@@ -1,3 +1,5 @@
+source 'https://rubygems.org'
+
 gem 'watir'
 gem 'cucumber'
 gem 'page-object'
@@ -7,3 +9,4 @@ gem 'rspec'
 gem 'rest-client'
 gem 'json'
 gem 'require_all'
+gem 'parallel_tests'

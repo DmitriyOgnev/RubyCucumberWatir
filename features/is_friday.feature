@@ -1,4 +1,5 @@
 Feature: Testing if the day is Friday
+  @Basic_Methods
   Scenario Outline: Testing if the Day is Friday
     Given the day is "<day>"
     When the user ask it is Friday already
